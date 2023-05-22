@@ -5,7 +5,8 @@ obj-m := helloworld.o \
 		helloworld_test_workqueue.o \
 		helloworld_test_tasklet.o \
 		helloworld_test_dedicated_workqueue.o \
-		char_device_driver_basic.o 
+		char_device_driver_basic.o \
+		misc_device_driver.o
 
 KERNEL_DIR ?= /workspace/learn-embedded/linux
 
